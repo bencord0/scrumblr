@@ -1,0 +1,12 @@
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  name: scrumblr
+spec:
+  containers:
+  - name: scrumblr
+    image: localhost:5000/scrumblr  # A local image
+  
+  - name: redis
+    image: docker.io/library/redis
