@@ -7,6 +7,6 @@ spec:
   containers:
   - name: NAME
     image: localhost:5000/NAME:GITHASH  # A local image
-  
+
   - name: redis
     image: docker.io/library/redis
